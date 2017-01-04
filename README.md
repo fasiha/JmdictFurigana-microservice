@@ -30,7 +30,10 @@ Or
 $ curl http://localhost:3700/瞬く/またたく
 [{"ruby":"瞬","rt":"またた"},"く"]
 ```
-When both headword and reading are specified, a JSON-encoded array containing either strings (usually containing kana-only) or objects with `ruby` and `rt` keys is returned. With these `ruby` and `rt` strings, one can readily build HTML5 [Ruby](http://html5doctor.com/ruby-rt-rp-element/) tags.
+When both headword and reading are specified, a JSON-encoded array containing either strings (usually containing kana-only) or objects with `ruby` and `rt` keys is returned. With these `ruby` and `rt` strings, one can readily build HTML5 [Ruby](http://html5doctor.com/ruby-rt-rp-element/) tags, e.g.,
+
+- <ruby>食<rt>た</rt></ruby>べ<ruby>物<rt>もの</rt></ruby>
+- <ruby>瞬<rt>またた</rt></ruby>く
 
 ## Set up
 Clone this repo.
