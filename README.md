@@ -40,6 +40,6 @@ Clone this repo.
 
 Edit `index.js` to adjust the path to `JmdictFurigana.txt` and port.
 
-Run `$ npm install` to fetch install dependencies.
+Run `$ npm install` to fetch dependencies.
 
 Run `$ node index.js` to run the server.
